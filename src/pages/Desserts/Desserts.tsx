@@ -74,7 +74,7 @@ export default function Desserts() {
 
   return (
     <Layout>
-      <h1>Hamburgers</h1>
+      <h1>Sobremesas</h1>
       <ProductCategories>
         {isLoading ? (
           <p>Carregando</p>

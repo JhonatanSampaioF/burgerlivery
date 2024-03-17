@@ -74,7 +74,7 @@ export default function Beverages() {
 
   return (
     <Layout>
-      <h1>Hamburgers</h1>
+      <h1>Bebidas</h1>
       <ProductCategories>
         {isLoading ? (
           <p>Carregando</p>
