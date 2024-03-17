@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Button, CategoryList, Layout, ProductCard } from "../../components";
+import { Button, CategoryList, Layout, ProductCard, RadioButton } from "../../components";
 import { ProductCategories, ProductWrapper } from "../Hamburgers/Hamburgers.style";
 import {
   ProductCardContent,
@@ -92,7 +92,9 @@ export default function Appetizers() {
             <ProductCard key={index}>
               <ProductCardContent>
                 <h2>{product.title}</h2>
-                <p>{product.description}</p>
+                <p>{product.description}{RadioButton}</p>
+                <RadioButton></RadioButton>
+
                 <Button onClick={() => {}}>Adicionar</Button>
               </ProductCardContent>
               <ProductCardPrice>

@@ -1,4 +1,5 @@
 export * from "./Button/Button";
+export * from "./RadioButton/RadioButton";
 export * from "./CategoryList/CategoryList";
 export * from "./Footer/Footer";
 export * from "./Header/Header";
